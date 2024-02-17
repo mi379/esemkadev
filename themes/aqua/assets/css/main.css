@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilties{
+    .fullscreen{
+      @apply absolute;
+      @apply min-h-screen;
+      @apply max-h-fit;
+      @apply w-full;
+    }
+  
+    .col{
+      @apply flex;
+      @apply flex-col;
+    }
+  }
